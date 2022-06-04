@@ -1,0 +1,317 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* index.html */
+body {
+  background-color: grey;
+  font-family: Montserrat;
+  color: white;
+  background: url(../public/image/kamar-pagi.jpg) no-repeat right;
+  /* box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5); */
+}
+
+.container {
+  background: rgba(6, 77, 104, 0.7);
+  border-radius: 20px;
+  padding: 30px 40px;
+  z-index: 900;
+}
+
+.header-nav {
+  text-align: right;
+  float: right;
+}
+
+.header-nav img {
+  width: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.header {
+  border-bottom: 2px solid white;
+}
+
+.header img {
+  width: 50px;
+  position: relative;
+  left: 70px;
+}
+
+.header-title {
+  font-weight: 800;
+  color: white;
+}
+
+.section-charater {
+  float: left;
+  height: 500px;
+}
+
+.arrow {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.arrow img {
+  width: 80%;
+}
+
+.character {
+  min-width: 25%;
+  max-height: 260px;
+}
+
+.form-player {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-player input, .form-select {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-button {
+  padding: 10px 155px;
+  font-weight: 800;
+}
+
+.form-button:hover {
+  box-shadow: -7px 10px rgb(6, 77, 104);
+}
+
+/* game.html */
+.game-status {
+  background: rgba(6, 77, 104, 0.9);
+  border: transparent;
+  border-radius: 20px;
+  padding: 10px 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.game-status img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.game-status progress {
+  vertical-align: middle;
+  height: 50px;
+  width: 70%;
+}
+
+#time h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.game-character {
+  width: 15%;
+}
+
+.player-activities {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.player-activities .btn {
+  min-width: 70%;
+  text-align: center;
+}
+
+.player-activities img {
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 350px;
+}
+
+.player-goto img,
+.player-activity img {
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 20px;
+}
+
+.modal-title {
+  color: rgb(6, 77, 104);
+  font-weight: 800;
+}
+
+.close {
+  font-size: 20px;
+  padding: 0 10px;
+  border: 1px solid transparent;
+}
+
+.modal-content {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.header-nav button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.sound {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn-sound img {
+  width: 80%;
+  background: rgb(6, 77, 104);
+  border-radius: 50%;
+  padding: 10px;
+  border: transparent;
+}
+
+.btn-sound {
+  background: transparent;
+  border: transparent;
+}
+
+.modal-body img {
+  width: 100px;
+}
+
+.smartphone {
+  position: relative;
+  width: 240px;
+  height: 350px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  color: black;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 208px;
+  height: 230px;
+  background: white;
+  padding: 0 15px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 12px;
+}
+
+.list-news {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#rulesModal {
+  color: black;
+}
+
+#foodModal p {
+  color: black;
+}
+
+#summaryModal p {
+  color: black;
+}
+
+.news-title {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.news-image {
+  min-width: 135px;
+}
+
+.news-author {
+  font-size: 10px;
+}
+
+.news-description {
+  font-size: 12px;
+  text-align: left;
+}
+
+.about-us img {
+  width: 130px;
+  height: 130px;
+}
+
+#jam-kampus, #jam-supermarket {
+  font-size: 10px;
+}
+
+#homePage {
+  padding-top: 59.5px;
+  padding-bottom: 59.5px;
+}
+
+#detailed-result {
+  border-top: 1px solid white;
+}
+
+.clock-hour {
+  background: url(../public/image/kamar-pagi.jpg) no-repeat center;
+  height: 150px;
+}
+
+.clock-hour p {
+  padding-top: 60px;
+}
+
+.clock-hour1 {
+  background-color: rgba(252, 221, 176, 0.5);
+}
+
+.clock-hour2 {
+  background-color: rgba(191, 239, 249, 0.5);
+}
+
+.clock-hour3 {
+  background-color: rgba(251, 147, 128, 0.5);
+}
+
+.clock-hour4 {
+  background-color: rgba(3, 3, 3, 0.7);
+}
+
+#rulesModal .modal-content {
+  background-color: white;
+  padding: 0 15px;
+}
