@@ -1,7 +1,7 @@
 # 7-Days UMN
 UAS PTI Kelompok 1
 
-7-Days UMN - Kelompok 1 | UTS PTI (IF231 - E, EL)
+7-Days UMN - Kelompok 1 | UAS PTI (IF231 - E, EL)
 - Hansen (00000060325)
 - Liusianto (00000061560)
 - Marselino Lengyu Pantouw (00000061909)
