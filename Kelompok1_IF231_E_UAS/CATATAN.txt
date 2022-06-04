@@ -1,0 +1,9 @@
+NewsAPI tidak dapat dijalankan di codesandbox karena ada perubahan kebijakan dari newsapinya. Data masuk, namun terdapat http status 426 yang singkatnya server menolak untuk melakukan request karena adanya perbedaan protokol.
+
+Namun kelompok masih menggunakan NewsAPI karena kelompok menggunakan visual studio code dalam mengerjakan project
+
+"The server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol."
+Sumber: 
+https://www.webfx.com/web-development/glossary/http-status-codes/what-is-a-426-status-code/
+
+https://stackoverflow.com/questions/62157026/error-426-from-newsapi-org-once-i-deployed-my-site-on-netlify
